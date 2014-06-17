@@ -1,0 +1,43 @@
+---
+---
+
+<!-- A boostrap webpage for OFET content -->
+
+{% include header.html %}
+
+{% for post in site.posts %}
+
+{{post_type}}
+ <div class="col-sm-6 ">
+<div class="panel panel-default">
+  <div class="panel-heading"><h4><small>{{post['Year']}}</small>&nbsp;&nbsp;{{post['Author']}}</h4></div>
+  <div class="panel-body">
+    {{post.data}}
+    <!-- This is going to be table -->
+
+      <table class="table">
+
+    {% for keys in post %}
+
+    {% unless site.reserved contains keys[0]%}
+    <tr>
+
+      <td>
+          <small><small>{{keys[0]}}</small></small>
+      </td>
+      <td>
+        <small><small>{{keys[1]}}</small></small>
+      </td>
+
+    </tr>
+    {% endunless %}
+    {% endfor %}
+
+  </table>
+  </div>
+</div>
+</div>
+{% endfor %}
+
+
+</body>

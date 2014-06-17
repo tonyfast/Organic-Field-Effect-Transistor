@@ -1,0 +1,24 @@
+name: Organic Field Effect Transistor Survey
+markdown: redcarpet
+pygments: true
+baseurl: Organic-Field-Effect-Transistor
+methods:
+  - Spun: info
+  - Dropped: warning
+  - Dipped: danger
+reserved:
+  - Author
+  - Year
+  - Method
+  - url
+  - title
+  - dir
+  - date
+  - id
+  - categories
+  - next
+  - previous
+  - tags
+  - path
+  - content
+  - excerpt
