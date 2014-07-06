@@ -5,14 +5,13 @@
 
 {% include header.html %}
 
-{% for post in site.data %}
+{% for dat in site.data %}
 
-{{post_type}}
+{% assign post = dat[1] %}
  <div class="col-sm-6 ">
 <div class="panel panel-default">
   <div class="panel-heading"><h4><small>{{post['Year']}}</small>&nbsp;&nbsp;{{post['Author']}}</h4></div>
   <div class="panel-body">
-    {{post.data}}
     <!-- This is going to be table -->
 
       <table class="table">
@@ -38,6 +37,5 @@
 </div>
 </div>
 {% endfor %}
-
 
 </body>
