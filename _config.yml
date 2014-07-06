@@ -1,7 +1,7 @@
 name: Organic Field Effect Transistor Survey
 markdown: redcarpet
 highlighter: true
-baseurl: #Organic-Field-Effect-Transistor
+baseurl: /Organic-Field-Effect-Transistor
 methods:
   - Spun: info
   - Dropped: warning
