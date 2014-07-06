@@ -1,0 +1,26 @@
+Annealing Temp, C: 100.0
+Annealing Time, hr: 10.0
+Author: Chang
+Channel Length: 20 m
+Channel Width: 10mm
+DOI: 10.1103/PhysRevB.74.115318
+Film Thickness: 20 - 50 nm
+Hansen Radius: 13.17499999999998
+Method: Spun
+Mobility Environment: N2
+Molecular Weight (kDa) Mn: 76.0
+OFET config.: BGBC
+OFET regime: saturation
+PDI: 1.7
+Processing Environment: N2
+RT Mobility (cm^2/V/s): 0.00299
+Regioregularity: high
+Solution Concentration, mg/mL: 10.0
+Solution Treatment: filtered 0.45m
+Solution aging temp, C: 70.0
+Solution aging time, min: 30.0
+Solvent 1: CHCl3
+Spin Rate, rpm: 1500.0
+Substrate Treatment: HMDS
+Year: 2006
+url: http://link.aps.org/doi/10.1103/PhysRevB.74.115318
